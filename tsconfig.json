@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@types/*": ["packages/types/*"],
+      "@core/*": ["packages/core/*"],
+      "@agents/*": ["packages/agents/*"],
+      "@web/*": ["apps/web/*"]
+    }
+  },
+  "include": ["packages", "apps", "tests"],
+  "exclude": ["node_modules"]
+}
